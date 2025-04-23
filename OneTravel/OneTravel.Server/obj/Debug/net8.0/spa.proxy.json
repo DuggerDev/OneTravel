@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\User\\Desktop\\OneTravel\\OneTravel\\OneTravel.Server\\..\\onetravel.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

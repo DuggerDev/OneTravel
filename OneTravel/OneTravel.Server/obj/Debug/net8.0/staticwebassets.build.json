@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "rc+PJerMUMH0HyQuOFzRxYyUXfeOk4ANcoUiI88Rv2c=",
+  "Source": "OneTravel.Server",
+  "BasePath": "_content/OneTravel.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\OneTravel\\OneTravel\\onetravel.client\\onetravel.client.esproj",
+      "Version": 2,
+      "Source": "onetravel.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
