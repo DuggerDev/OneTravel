@@ -1,6 +1,0 @@
-@OneTravel.Server_HostAddress = http://localhost:5190
-
-GET {{OneTravel.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
