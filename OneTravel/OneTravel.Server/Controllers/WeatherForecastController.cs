@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using OneTravel.Server.Models;
 
 namespace OneTravel.Server.Controllers
 {
