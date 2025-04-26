@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OneTravel.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e61b1827d9572de2d1b0bcfbbfc845ecdb141662")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b6134f25c1f6204576faf56fdeebd5b1efa3d8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("OneTravel.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OneTravel.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
