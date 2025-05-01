@@ -15,6 +15,8 @@
         public string? DestinationCountry { get; set; }
         public DateTime? Departing { get; set; }
         public DateTime? Arrival { get; set; }
+
+        public int? Stops { get; set; }
         public float? Price { get; set; }
     }
 }

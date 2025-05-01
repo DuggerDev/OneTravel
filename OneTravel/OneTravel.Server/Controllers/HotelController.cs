@@ -12,6 +12,8 @@ namespace OneTravel.Server.Controllers
         public DateTime? CheckInDate { get; set; }
         public DateTime? CheckOutDate { get; set; }
         public float? Price { get; set; }
+
+        public int? Pages { get; set; }
     }
 
     [ApiController]

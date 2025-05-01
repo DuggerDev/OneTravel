@@ -22,6 +22,12 @@ namespace OneTravel.Server.DataAccess
             {
                 request.CheckOutDate = request.CheckInDate?.AddDays(14);
             }
+
+            if (request.Pages == null)
+            {
+                request.Pages = 0;
+            }
+
             // Price left to frontend filtering
 
             using (var connection = new SqliteConnection(ConnectionString))
@@ -46,6 +52,7 @@ namespace OneTravel.Server.DataAccess
                       AND h.check_in_date >= @checkin
                       AND h.check_out_date <= @checkout
                     ORDER BY h.check_in_date
+                    limit 25 offset @pages
                 ";
 
                 hotelCommand.Parameters.AddWithValue("@name", "%" + request.Name + "%");
@@ -53,6 +60,7 @@ namespace OneTravel.Server.DataAccess
                 hotelCommand.Parameters.AddWithValue("@country", "%" + request.Country + "%");
                 hotelCommand.Parameters.AddWithValue("@checkin", request.CheckInDate);
                 hotelCommand.Parameters.AddWithValue("@checkout", request.CheckOutDate);
+                hotelCommand.Parameters.AddWithValue("@pages", request.Pages * 25);
 
                 using (var reader = hotelCommand.ExecuteReader())
                 {
