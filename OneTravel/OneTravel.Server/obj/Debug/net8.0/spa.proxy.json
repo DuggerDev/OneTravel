@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\User\\Desktop\\OneTravel\\OneTravel\\OneTravel.Server\\..\\onetravel.client",
+"WorkingDirectory": "C:\\Users\\andal\\Desktop\\Programming (Classes Too)\\OneTravel\\OneTravel\\OneTravel.Server\\..\\onetravel.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
