@@ -1,3 +1,4 @@
+
 import { Row } from "antd";
 import styled from "styled-components";
 
@@ -15,8 +16,7 @@ export const Content = styled("p")`
 `;
 
 export const StyledRow = styled(Row)`
-  flex-direction: ${({ direction }: { direction: string }) =>
-    direction === "left" ? "row" : "row-reverse"};
+  flex-direction: ;
 `;
 
 export const ContentWrapper = styled("div")`
