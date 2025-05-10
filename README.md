@@ -79,5 +79,3 @@
 | **Project Report** | `/docs/OneTravel_Report.pdf`                                     |
 | **Source Package** | `OneTravel.zip` (client, server, SQL, models, experimental data) |
 | **This README**    | `README.md`                                                      |
-
-> *Marks may be deducted if the evaluators cannot build or run the project easily. Please follow the steps above and verify the application before submission.*
