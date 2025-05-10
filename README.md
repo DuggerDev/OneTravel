@@ -55,7 +55,7 @@
    ```bash
    cd Client
    npm install   # first‑time only
-   npm start
+   npm run dev
    ```
 
    The React app launches at `http://localhost:3000` and proxies API requests to the backend.
