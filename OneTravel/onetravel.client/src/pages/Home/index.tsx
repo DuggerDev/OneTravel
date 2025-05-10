@@ -11,7 +11,7 @@ const Home = () => {
         direction="right"
         title={HomePageContent.title}
         content={HomePageContent.text}
-        button={HomePageContent.button}
+        //button={HomePageContent.button}
         icon="developer.svg"
         id="intro"
       />

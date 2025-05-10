@@ -5,7 +5,6 @@ import fs from 'fs';
 import path from 'path';
 import child_process from 'child_process';
 import { env } from 'process';
-import babel from 'vite-plugin-babel';  
 
 const baseFolder = env.APPDATA && env.APPDATA !== ''
     ? `${env.APPDATA}/ASP.NET/https`

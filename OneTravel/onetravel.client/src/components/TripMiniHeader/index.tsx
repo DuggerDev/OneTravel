@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import ITripModel from "../../models/ITripModel";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Button } from "antd";
-import { t } from "i18next";
-import { CustomNavLinkSmall, Span } from "../Header/styles";
+//import { CustomNavLinkSmall, Span } from "../Header/styles";
 
 
 const Card = styled.div`
