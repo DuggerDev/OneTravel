@@ -58,9 +58,9 @@ C:\Users\User\Desktop\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\runt
 C:\Users\User\Desktop\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\User\Desktop\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\User\Desktop\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\spa.proxy.json
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\appsettings.json
-C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\spa.proxy.json
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\OneTravel.Server.staticwebassets.endpoints.json
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\OneTravel.Server.exe
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\bin\Debug\net8.0\OneTravel.Server.deps.json
@@ -115,4 +115,10 @@ C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.S
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\OneTravel.Server.pdb
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\OneTravel.Server.genruntimeconfig.cache
 C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\ref\OneTravel.Server.dll
-C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets\msbuild.OneTravel.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets\msbuild.OneTravel.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.OneTravel.Server.props
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OneTravel.Server.props
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OneTravel.Server.props
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\andal\Desktop\Programming (Classes Too)\OneTravel\OneTravel\OneTravel.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

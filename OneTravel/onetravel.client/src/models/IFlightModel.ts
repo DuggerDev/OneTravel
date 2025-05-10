@@ -9,8 +9,8 @@ export default interface IFlightModel {
   destinationIata?: string;
   destinationCity?: string;
   destinationCountry?: string;
-  departing?: Date;
-  arrival?: Date;
-  stops?: number;
+  departing: string;
+  arrival: string;
+  stops: number;
   price: number;
 }

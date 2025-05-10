@@ -1,9 +1,8 @@
 export default interface IHotelModel {
   name: string;
-  city?: string;
+  city: string;
   country?: string;
-  checkInDate?: Date;
-  checkOutDate?: Date;
+  checkInDate: string;
+  checkOutDate: string;
   price: number;
-
 }

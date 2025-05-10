@@ -76,8 +76,8 @@ const TripMiniHeader: React.FC<ITripModel> = ({
         <Cities>
           {flight.originCity} → {flight.destinationCity}
         </Cities>
-        <TimeSpan>{flight.departing?.toDateString()} → {hotel.checkOutDate?.toDateString()}</TimeSpan>
-        <TimeSpan>${flight.price + hotel.price}</TimeSpan>
+        <TimeSpan>{(new Date(flight.departing)).toDateString()} → {(new Date(hotel.checkOutDate)).toDateString()}</TimeSpan>
+        <TimeSpan>${(flight.price + hotel.price).toFixed(2)}</TimeSpan>
         <Button onClick={() => onClickHandler("payment")}>{("Buy Now")}</Button>
       </Header>
 

@@ -6,6 +6,8 @@ import Home from "../pages/Home";
 import TravelSearch from "../pages/TravelSearch";
 import PaymentPage from "../pages/Payment";
 import UnderDevelopment from "../pages/UnderDevelopment";
+import TestPage from "../pages/TestPage";
+import NoPage from "../pages/NoPage";
 
 
 const Router = () => {
@@ -16,11 +18,14 @@ const Router = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<TravelSearch />} />
+          <Route path="/flights" element={<UnderDevelopment />} />
           <Route path="/payment" element={<PaymentPage />} />
 
           {/* Other */}
-          <Route path="*" element={<UnderDevelopment />} />
+          <Route path="/test" element={<TestPage />} />
+          <Route path="*" element={<NoPage />} />
 
+=
         </Routes>
       </Suspense>
   );
