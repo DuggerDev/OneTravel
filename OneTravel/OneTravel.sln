@@ -22,7 +22,6 @@ Global
 		{5DA91F34-518A-4289-9CC0-F574223CE985}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5DA91F34-518A-4289-9CC0-F574223CE985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DA91F34-518A-4289-9CC0-F574223CE985}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5DA91F34-518A-4289-9CC0-F574223CE985}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

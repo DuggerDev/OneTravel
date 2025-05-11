@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "OneTravel.Server\\OneTravel.Server.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "onetravel.client\\onetravel.client.esproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]

@@ -2,22 +2,24 @@
 
 ## Contents Submitted
 
-* **Flight Data Generator** (`FlightDataGenerator.sql`)
-* **OneTravel Project Solution**
-  ├── **Server** (ASP.NET Core)
-  │   ├── *Controllers*/
-  │   ├── *DataAccess*/
-  │   ├── *Models*/
-  │   ├── *Properties*/
-  │   └── `Program.cs`
-  └── **Client** (React + TypeScript)
-     ├── *models*/
-     ├── *pages*/
-     ├── *redux*/
-     ├── *router*/
-     └── *styles*/
+* **Flight Data Generator** (`fake_travel.py`)
+* **Data Normalizer** (`Mormalize.sql`)
 
----
+```md
+OneTravel Project Solution
+  ├── Server (ASP.NET Core)
+  │   ├── Controllers/
+  │   ├── DataAccess/
+  │   ├── Models/
+  │   ├── Properties/
+  │   └── Program.cs
+  └── Client (Vite + TypeScript)
+     ├── models/
+     ├── pages/
+     ├── redux/
+     ├── router/
+     └── styles/
+```
 
 ## Getting Started
 
@@ -29,7 +31,7 @@
 | Node.js & npm       | 20.x            | Build & run the React client      |
 | Visual Studio 2022  | ‑               | Recommended IDE for the server    |
 | VS Code             | ‑               | Recommended editor for the client |
-| SQL Server          | 2019+           | Sample flight‑data database       |
+| SQLite              | 3               | Sample flight‑data database       |
 | Modern browser      | ‑               | Access the web app                |
 | Internet connection | ‑               | External API calls                |
 
@@ -47,28 +49,17 @@
 2. **Start the server** (Visual Studio)
 
    1. Open `OneTravel.sln`.
-   2. Press F5 or click **Run**.
-   3. The API listens on `https://localhost:5001` (default).
-
-3. **Start the client** (VS Code or terminal)
-
-   ```bash
-   cd Client
-   npm install   # first‑time only
-   npm run dev
-   ```
-
-   The React app launches at `http://localhost:3000` and proxies API requests to the backend.
-
-4. **(Optional) Seed sample data**
-
-   * Execute `FlightDataGenerator.sql` against your SQL Server instance to populate demo flight records.
+   2. Press CTRL+F5 or click **Run without debugging**.
+   3. The API listens on `https://localhost:7212` (default).
+   4. Vite application also launches at `http://localhost:5173` (default).
 
 ---
 
 ## Known Limitations
 
 * The free‑tier flight‑data API enforces request quotas and offers limited coverage. A commercial subscription would provide richer, real‑time data.
+* The SQLite database is a sample and not intended for production use, data would need to be regenerated using the `fake_travel.py` script and Normalize it using the `Normalize.sql` script.
+* Can only search for flights or hotels, but not purchase the tickets.
 
 ---
 
