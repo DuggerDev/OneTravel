@@ -3,7 +3,7 @@
 ## Contents Submitted
 
 * **Flight Data Generator** (`fake_travel.py`)
-* **Data Normalizer** (`Mormalize.sql`)
+* **Data Normalizer** (`Normalize.sql`)
 
 ```md
 OneTravel Project Solution
