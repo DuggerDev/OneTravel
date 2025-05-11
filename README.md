@@ -66,7 +66,6 @@ OneTravel Project Solution
 
 ## Known Limitations
 
-* The free‑tier flight‑data API enforces request quotas and offers limited coverage. A commercial subscription would provide richer, real‑time data.
 * The SQLite database is a sample and not intended for production use, data would need to be regenerated using the `fake_travel.py` script and Normalize it using the `Normalize.sql` script.
 * Can only search for flights or hotels, but not purchase the tickets.
 
