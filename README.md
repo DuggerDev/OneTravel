@@ -53,6 +53,15 @@ OneTravel Project Solution
    3. The API listens on `https://localhost:7212` (default).
    4. Vite application also launches at `http://localhost:5173` (default).
 
+3. **Start the client** (terminal)
+
+   ```bash
+   cd OneTravel/OneTravel/onetravel.client
+   npm install
+   npm run build
+   npm run dev
+   ```
+
 ---
 
 ## Known Limitations
